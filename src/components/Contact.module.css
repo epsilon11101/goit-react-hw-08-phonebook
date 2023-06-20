@@ -1,0 +1,27 @@
+.cardHeader {
+    background-color: #22A699;
+    color: white;
+}
+
+.avatar {
+    background-color: #F2BE22 !important;
+    color: white !important;
+}
+
+.pendingIcon {
+    color: white;
+}
+
+.cardHeader__variant {
+    background-color: #F2BE22;
+    color: black;
+}
+
+.avatar__variant {
+    background-color: #22A699 !important;
+    color: black !important;
+}
+
+.pendingIcon__variant {
+    color: black;
+}
