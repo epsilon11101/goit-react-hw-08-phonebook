@@ -40,9 +40,24 @@ const Contacts = () => {
           fontSize: "1.5rem",
         }}
       >
-        Aaron Miranda V.
+        Contact
       </Typography>
-      <ContactInfo />
+      <ContactInfo
+        fullName="aaron miranda victorino"
+        phoneNumber="3328695850"
+      />
+      <Typography
+        variant="h6"
+        sx={{
+          fontWeight: "bold",
+          textAlign: "center",
+          color: "white",
+          fontSize: "1.5rem",
+        }}
+      >
+        New Contact
+      </Typography>
+      <ContactInfo fullName="" phoneNumber="" />
     </Container>
   );
 };
