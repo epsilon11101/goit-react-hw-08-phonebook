@@ -1,0 +1,91 @@
+.cardHeader {
+    color: #9336B4;
+    text-transform: capitalize;
+
+}
+
+.cardHeader span {
+    font-size: 0.9rem !important;
+    font-weight: bolder !important;
+
+}
+
+.container {
+    background-color: #F2BE22 !important;
+}
+
+
+.avatar {
+    background-color: #F29727 !important;
+    text-transform: capitalize;
+
+}
+
+.pendingIcon {
+    color: #9336B4;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+
+}
+
+.form .inputWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.form .inputWrapper label {
+    text-align: left;
+    font-size: 0.9rem;
+    width: 50%;
+    color: #9336B4;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.form .inputWrapper input {
+    width: 50%;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ccc;
+    padding: 0 0.5rem;
+    color: #9336B4;
+    text-transform: capitalize;
+}
+
+.form .inputWrapper input:focus {
+    color: rgb(202, 9, 202);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(202, 9, 202);
+}
+
+.form button[type="submit"] {
+    width: 50%;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #9336B4;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.form span {
+    color: #d6103b;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+}
