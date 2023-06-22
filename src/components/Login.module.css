@@ -55,10 +55,14 @@
     border: 1px solid #ccc;
     padding: 0.5rem;
     outline: none;
+    color: #22A699;
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
 
 .inputWrapper input:focus {
     border: 1px solid #F29727;
+    color: #F24C3D;
 }
 
 .form span {
@@ -77,5 +81,6 @@
     background-color: #F24C3D;
     cursor: pointer;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
