@@ -1,0 +1,9 @@
+a {
+    color: #22A699;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.active {
+    color: #F24C3D;
+}

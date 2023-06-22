@@ -1,4 +1,3 @@
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -12,10 +11,13 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
-
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
-const pages = ["Main", "Contacts", "Add Contact", "Login"];
+import css from "./Nav.module.css";
+
+const pages = ["About", "Contacts", "Add Contact", "Login"];
+const linkPages = ["/", "/contacts", "/new-contact", "/login"];
 const settings = ["Profile", "Logout"];
 
 function Nav() {
@@ -104,7 +106,7 @@ function Nav() {
               }}
             >
               {/* MENU MOBILE */}
-              {pages.map((page) => (
+              {pages.map((page, i) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography
                     textAlign="center"
@@ -112,7 +114,15 @@ function Nav() {
                       color: "#22A699",
                     }}
                   >
-                    {page}
+                    <NavLink
+                      to={linkPages[i]}
+                      className={({ isActive }) =>
+                        isActive ? css.active : undefined
+                      }
+                      end
+                    >
+                      {page}
+                    </NavLink>
                   </Typography>
                 </MenuItem>
               ))}

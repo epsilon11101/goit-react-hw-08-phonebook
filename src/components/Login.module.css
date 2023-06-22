@@ -1,0 +1,81 @@
+.card {
+    width: 100%;
+    margin-top: 2rem;
+
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cardHeader {
+    background-color: #f24c3d31;
+    opacity: 0.8;
+    background-image: linear-gradient(135deg, #22a699e1 25%, transparent 25%), linear-gradient(225deg, #22A699 25%, transparent 25%), linear-gradient(45deg, #22A699 25%, transparent 25%), linear-gradient(315deg, #22A699 25%, #F24C3D 25%);
+    background-position: 13px 0, 13px 0, 0 0, 0 0;
+    background-size: 26px 26px;
+    background-repeat: repeat;
+    border-radius: 0.5rem 0.5rem 0 0;
+
+}
+
+.cardHeader span {
+    font-size: 4rem !important;
+    text-shadow: 3px 3px 3px #000 !important;
+    text-align: center;
+}
+
+.cardContent {
+    background-color: #22A699;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.inputWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inputWrapper label {
+    width: 5rem;
+}
+
+.inputWrapper input {
+    width: 60%;
+    height: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.inputWrapper input:focus {
+    border: 1px solid #F29727;
+}
+
+.form span {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #ff004cc7;
+    line-height: 2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.form button[type="submit"] {
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #F24C3D;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+}

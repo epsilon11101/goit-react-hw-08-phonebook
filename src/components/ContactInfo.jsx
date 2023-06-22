@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import EditOffIcon from "@mui/icons-material/EditOff";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import css from "./ContactInfo.module.css";
 import { useEffect, useState } from "react";
 
