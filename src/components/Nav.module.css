@@ -7,3 +7,12 @@ a {
 .active {
     color: #F24C3D;
 }
+
+button {
+    color: #22A699;
+    background-color: transparent;
+    border: solid 1px #F24C3D;
+    cursor: pointer;
+    font-size: inherit;
+    width: fit-content
+}

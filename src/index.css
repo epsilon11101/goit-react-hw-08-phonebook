@@ -7,3 +7,17 @@ F24C3D // rosa
 
 
 */
+
+:root {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+    opacity: 1;
+    background-image: linear-gradient(#f24c3d27 1px, transparent 1px), linear-gradient(to right, #f24c3d3b 1px, #ff008800 1px);
+    background-size: 30px 30px;
+}

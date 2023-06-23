@@ -1,9 +1,8 @@
 .container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: auto;
+    align-items: center;
 }
 
 .card {
@@ -26,13 +25,12 @@
 }
 
 .cardHeader {
-    background-color: #f24c3d31;
+
+    background-color: #F24C3D;
     opacity: 0.8;
-    background-image: linear-gradient(135deg, #22a699e1 25%, transparent 25%), linear-gradient(225deg, #22A699 25%, transparent 25%), linear-gradient(45deg, #22A699 25%, transparent 25%), linear-gradient(315deg, #22A699 25%, #F24C3D 25%);
-    background-position: 13px 0, 13px 0, 0 0, 0 0;
-    background-size: 26px 26px;
-    background-repeat: repeat;
-    border-radius: 0.5rem 0.5rem 0 0;
+    background-image: repeating-linear-gradient(45deg, #22A699 25%, transparent 25%, transparent 75%, #22A699 75%, #22A699), repeating-linear-gradient(45deg, #22A699 25%, #F24C3D 25%, #F24C3D 75%, #22A699 75%, #22A699);
+    background-position: 0 0, 8px 8px;
+    background-size: 16px 16px;
 
 }
 

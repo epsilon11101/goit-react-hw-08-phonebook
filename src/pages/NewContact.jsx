@@ -16,7 +16,7 @@ const NewContact = () => {
         sx={{
           fontWeight: "bold",
           textAlign: "center",
-          color: "white",
+          color: "black",
           fontSize: "1.5rem",
         }}
       >

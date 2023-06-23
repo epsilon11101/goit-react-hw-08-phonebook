@@ -5,7 +5,7 @@ import css from "./MainLayout.module.css";
 const MainLayout = () => {
   return (
     <Container className={css.container}>
-      <Typography variant="h2" className={css.title}>
+      <Typography variant="h4" className={css.title}>
         Welcome to your new contact notebook!
       </Typography>
       <Typography variant="h6" className={css.p}>
